@@ -1,0 +1,22 @@
+<routes>
+    <vType id="car"  length="5" accel="2.6" decel="4.5" sigma="0.5" maxSpeed="13.9"/>
+    <vType id="slow" length="5" accel="2.0" decel="4.5" sigma="0.5" maxSpeed="4.0"/>
+
+    <!-- departure-sorted: SUMO ignores out-of-order vehicles -->
+    <vehicle id="lead1" type="slow" depart="0" departLane="1" departPos="60" departSpeed="3.5">
+        <route edges="E0a E0b"/></vehicle>
+    <vehicle id="lead2" type="slow" depart="0" departLane="0" departPos="90" departSpeed="3.0">
+        <route edges="E0a E0b"/></vehicle>
+    <vehicle id="lead0" type="slow" depart="0" departLane="1" departPos="120" departSpeed="3.0">
+        <route edges="E0a E0b"/></vehicle>
+    <vehicle id="ego" type="car" depart="0" departLane="1" departPos="10" departSpeed="0.0">
+        <route edges="E0a E0b"/></vehicle>
+    <vehicle id="mrg0" type="car" depart="1" departLane="0" departPos="5" departSpeed="6.0">
+        <route edges="Em E0b"/></vehicle>
+    <vehicle id="onc0" type="car" depart="2" departLane="0" departPos="10" departSpeed="10.0">
+        <route edges="E1a E1b"/></vehicle>
+    <vehicle id="mrg1" type="car" depart="6" departLane="0" departPos="5" departSpeed="6.0">
+        <route edges="Em E0b"/></vehicle>
+    <vehicle id="onc1" type="car" depart="8" departLane="1" departPos="10" departSpeed="10.0">
+        <route edges="E1a E1b"/></vehicle>
+</routes>

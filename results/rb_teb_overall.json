@@ -1,0 +1,30 @@
+[
+  {
+    "planner": "TEB",
+    "n": 20,
+    "success": 0.8,
+    "collision": 0.2,
+    "timeout": 0.0,
+    "deadlock": 0.0,
+    "time_to_goal": 10.399999999999977,
+    "time_to_goal_std": 0.779422863405992,
+    "path_length": 44.7507967305914,
+    "path_length_std": 8.739469664485584,
+    "min_clearance": 0.46084325392384884,
+    "min_clearance_std": 0.41873414545752935,
+    "min_ttc": 0.7253304707733209,
+    "min_ttc_std": 0.44459859948209685,
+    "mean_abs_jerk": 9.579968483346965,
+    "mean_abs_jerk_std": 2.530290006110925,
+    "omega_var": 0.08353773341183243,
+    "omega_var_std": 0.022783379805577025,
+    "mean_speed": 4.4723629024325575,
+    "mean_speed_std": 0.6027935934106342,
+    "lat_mean_ms": 175.26269512368341,
+    "lat_mean_ms_std": 5.110443587334981,
+    "lat_p95_ms": 213.14179449924268,
+    "lat_p95_ms_std": 5.264482422632561,
+    "lat_max_ms": 245.12523999801488,
+    "lat_max_ms_std": 22.66377675582135
+  }
+]

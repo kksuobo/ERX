@@ -1,0 +1,11 @@
+# Core benchmark (pure CPU, no training)
+numpy>=2.0
+matplotlib>=3.8
+
+# Aggregation / figures convenience
+pandas>=2.0
+scipy>=1.11
+
+# Optional: SUMO/CARLA cross-checks (not required for the kinematic benchmark)
+# sumolib>=1.20
+# traci>=1.20
